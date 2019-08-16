@@ -1,0 +1,21 @@
+{
+  "name": "friend-finder-homework",
+  "version": "1.0.0",
+  "description": "Friend Finder app for bootcamp homework",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancescaPuche/Friend-Finder-Homework.git"
+  },
+  "author": "Francesca Puche",
+  "license": "ISC"
+}
