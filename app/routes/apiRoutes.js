@@ -6,4 +6,10 @@ module.exports = (app) => {
         res.json(friendData);
     });
 
+    app.post("/api/friends", (req, res) => {
+        let friendscore = req.body.scores;
+        const scoresArr = [];
+        let bestMatch = 0; 
+        
+    });
 };
