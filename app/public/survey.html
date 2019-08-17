@@ -154,11 +154,34 @@
             <hr>
             <button type="submit" class="btn btn-warning btn-lg " id="submit">Submit</button>
         </form>
-
-    <div class="container"> 
-
     </div>
     
+    <footer>
+        <div class="container">
+            <a href="/api/friends">API Friends List</a>
+        </div>
+    </footer>
+
+    <!-- Modal for results -->
+
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h2 class="heading"><strong>Best Match</strong></h2>
+                    <button type="button" class="close" data-dismiss="modal">×</button>   
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" class="img-fluid" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default " data-dismiss="modal">Close</button>
+                </div>
+            </div> 
+         </div>
+    </div>
+
 
 
 
