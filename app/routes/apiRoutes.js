@@ -30,4 +30,12 @@ module.exports = (app) => {
         friendScore.push(req.body)
 
     });
+
+    app.post("/api/clear", (req, res) => {
+        // Empty out array 
+        friendScore.length = [];
+        res.json({
+            ok: true
+        });
+    });
 };
