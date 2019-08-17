@@ -10,8 +10,8 @@ app.use(express.json());
 
 app.use(express.static(__dirname + "./app/public/css")); 
 
-require("./app/routes/apiRoutes")(app); 
-require("./app/routes/htmlRoutes")(app); 
+require("./routes/apiRoutes"); 
+require("./routes/htmlRoutes"); 
 
 app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
