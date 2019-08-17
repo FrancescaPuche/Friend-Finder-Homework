@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+
+    <header> 
+        <nav class="navbar navbar-light bg-light">
+            <div class="container"> 
+                <span class="navbar-brand mb-0 h1">Friend Finder Survey</span>
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Home</button> 
+            </div>  
+        </nav>
+    </header> 
+
+    <div class="container">
+        <form action="">  
+            <h4>About You</h3>
+            <h6>Name (Required)</h6>
+            <input type="text" id="name" class="form-control" required>
+
+            <h6>Link to Photo Image (Required)</h6>
+            <input type="text" id="photo" class="form-control" required="">
+            <br>
+    
+            <hr>
+            <h4>Question 1</h4>
+            <h6>I am outgoing and sociable.</h6>
+            <select class="chosen-select" id="q1" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 2</h4>
+            <h6>I am compassionate and have a soft heart.</h6>
+            <select class="chosen-select" id="q2" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 3</h4>
+            <h6>I tend to be disorganized</h6>
+            <select class="chosen-select" id="q3" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 4</h4>
+            <h6>I tend to be relaxed and handle stress will.</h6>
+            <select class="chosen-select" id="q4" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 5</h4>
+            <h6>I have artistic interests.</h6>
+            <select class="chosen-select" id="q5" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 6</h4>
+            <h6>I have an assertive personality.</h6>
+            <select class="chosen-select" id="q6" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 7</h4>
+            <h6>I stay optimistic after experiencing a setback.</h6>
+            <select class="chosen-select" id="q7" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 8</h4>
+            <h6>I am naturally curious.</h6>
+            <select class="chosen-select" id="q8" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 9</h4>
+            <h6>I tend to find faults with others.</h6>
+            <select class="chosen-select" id="q9" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <br>
+            <br>
+            <h4>Question 10</h4>
+            <h6>I am inventive and find clever ways to do things.</h6>
+            <select class="chosen-select" id="q10" required>
+                <option value="">Select Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <hr>
+            <button type="submit" class="btn btn-warning btn-lg " id="submit">Submit</button>
+        </form>
+
+    <div class="container"> 
+
+    </div>
+    
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>    
+</body>
+</html>
